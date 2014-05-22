@@ -10,7 +10,8 @@ post '/' do
   doc = params['content']
   name = params['name'] || doc.hash
   File.open("clips/#{name}", 'w') { |f| f.write(doc) }
-  name
+  @url = "localhost:4567/clips/#{name}"
+  haml :pasted
 end
 
 get '/:id' do
