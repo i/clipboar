@@ -1,3 +1,9 @@
+@font-face {
+  font-family: boar;
+  font-size: 36;
+  src: url(BOARDER.ttf);
+}
+
 img.boar {
   width: 20%;
 }
@@ -9,4 +15,9 @@ img.boar {
 textarea.tbox {
   width: 50%;
   height: 200px;
+  resize: none;
+}
+
+.container {
+  font-family: boar;
 }

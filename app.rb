@@ -8,9 +8,9 @@ end
 
 post '/' do
   doc = params['content']
-  name = params['name'] || doc.hash
+  name = (params['name'].empty?)? doc.hash : params['name']
   File.open("clips/#{name}", 'w') { |f| f.write(doc) }
-  @url = "localhost:4567/clips/#{name}"
+  @url = "localhost:4567/#{name}"
   haml :pasted
 end
 
