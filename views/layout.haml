@@ -3,6 +3,10 @@
 %html
   %head
     %title= @title
+    %link{:type => "text/css", :rel => "stylesheet", :href => "/style.css"}
   %body
-    diz da layout
-    =yield
+    .container
+      %p clipboar
+      %p
+        %img.boar{src: 'http://bestclipartblog.com/clipart-pics/boar-clip-art-1.png'}
+      =yield

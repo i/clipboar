@@ -1,4 +1,8 @@
 %form{ action: '/', method: 'post' }
-  %textarea{ name: 'content' }
-  %input{ type: 'submit', value: 'send' }
+  %p
+    %input{type: 'text', name: 'name', placeholder: 'title (optional)' }
+  %p
+    %textarea.tbox{ name: 'content', placeholder: 'paste it here...', autofocus: true}
+  %p
+    %input{ type: 'submit', value: 'paste' }
 

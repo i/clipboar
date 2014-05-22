@@ -8,9 +8,9 @@ end
 
 post '/' do
   doc = params['content']
-  puts doc.class
-  File.open("clips/#{doc.hash}", 'w') { |f| f.write(doc) }
-  doc.hash.to_s
+  name = params['name'] || doc.hash
+  File.open("clips/#{name}", 'w') { |f| f.write(doc) }
+  name
 end
 
 get '/:id' do
