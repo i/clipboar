@@ -8,10 +8,16 @@ end
 
 post '/' do
   doc = params['content']
-  name = (params['name'].empty?)? doc.hash : params['name']
-  File.open("clips/#{name}", 'w') { |f| f.write(doc) }
-  @url = "localhost:4567/#{name}"
-  haml :pasted
+  name = params['name'].empty?? doc.hash : params['name']
+  return haml :index if name.match '/'
+
+  begin
+    File.open("clips/#{name}", 'w') { |f| f.write(doc) }
+    @url = "https://i.ngrok.com/#{name}"
+    haml :pasted
+  rescue
+    haml :index
+  end
 end
 
 get '/:id' do
