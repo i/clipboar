@@ -8,12 +8,12 @@ end
 
 post '/' do
   doc = params['content']
-  name = params['name'].empty?? doc.hash : params['name']
+  name = params['name'].empty?? doc.hash.to_s : params['name']
   return haml :index if name.match '/'
 
   begin
     File.open("clips/#{name}", 'w') { |f| f.write(doc) }
-    @url = "https://i.ngrok.com/#{name}"
+    @url = "http://clipboar.org/#{name}"
     haml :pasted
   rescue
     haml :index
