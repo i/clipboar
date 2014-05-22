@@ -1,0 +1,18 @@
+# Logfile created on 2014-05-21 22:17:07 -0400 by logger.rb/44203
+I, [2014-05-21T22:17:07.943532 #7293]  INFO -- : 0:  bson (2.2.4) from /home/ian/.rvm/gems/ruby-2.1.0/specifications/bson-2.2.4.gemspec
+I, [2014-05-21T22:17:07.944043 #7293]  INFO -- : 0:  tilt (1.4.1) from /home/ian/.rvm/gems/ruby-2.1.0/specifications/tilt-1.4.1.gemspec
+I, [2014-05-21T22:17:07.944399 #7293]  INFO -- : 0:  haml (4.0.5) from /home/ian/.rvm/gems/ruby-2.1.0/specifications/haml-4.0.5.gemspec
+I, [2014-05-21T22:17:08.039569 #7293]  INFO -- : 0:  mongo (3.0.0.alpha) from /home/ian/.rvm/gems/ruby-2.1.0/bundler/gems/mongo-ruby-driver-cf836bcf8127/mongo.gemspec
+I, [2014-05-21T22:17:08.040086 #7293]  INFO -- : 0:  rack (1.5.2) from /home/ian/.rvm/gems/ruby-2.1.0/specifications/rack-1.5.2.gemspec
+I, [2014-05-21T22:17:08.772948 #7293]  INFO -- : 0:  rack-protection (1.5.3) from /home/ian/.rvm/gems/ruby-2.1.0/specifications/rack-protection-1.5.3.gemspec
+I, [2014-05-21T22:17:09.845303 #7293]  INFO -- : 0:  sinatra (1.4.5) from /home/ian/.rvm/gems/ruby-2.1.0/specifications/sinatra-1.4.5.gemspec
+I, [2014-05-21T22:17:09.846241 #7293]  INFO -- : 0:  bundler (1.5.0) from /home/ian/.rvm/gems/ruby-2.1.0@global/specifications/bundler-1.5.0.gemspec
+I, [2014-05-21T22:18:11.267518 #7366]  INFO -- : 0:  bson (2.2.4) from /home/ian/.rvm/gems/ruby-2.1.0/specifications/bson-2.2.4.gemspec
+I, [2014-05-21T22:18:13.382918 #7366]  INFO -- : 0:  bson_ext (1.5.1) from /home/ian/.rvm/gems/ruby-2.1.0/specifications/bson_ext-1.5.1.gemspec
+I, [2014-05-21T22:18:13.383952 #7366]  INFO -- : 0:  tilt (1.4.1) from /home/ian/.rvm/gems/ruby-2.1.0/specifications/tilt-1.4.1.gemspec
+I, [2014-05-21T22:18:13.384664 #7366]  INFO -- : 0:  haml (4.0.5) from /home/ian/.rvm/gems/ruby-2.1.0/specifications/haml-4.0.5.gemspec
+I, [2014-05-21T22:18:13.484947 #7366]  INFO -- : 0:  mongo (3.0.0.alpha) from /home/ian/.rvm/gems/ruby-2.1.0/bundler/gems/mongo-ruby-driver-cf836bcf8127/mongo.gemspec
+I, [2014-05-21T22:18:13.485558 #7366]  INFO -- : 0:  rack (1.5.2) from /home/ian/.rvm/gems/ruby-2.1.0/specifications/rack-1.5.2.gemspec
+I, [2014-05-21T22:18:13.485875 #7366]  INFO -- : 0:  rack-protection (1.5.3) from /home/ian/.rvm/gems/ruby-2.1.0/specifications/rack-protection-1.5.3.gemspec
+I, [2014-05-21T22:18:13.486179 #7366]  INFO -- : 0:  sinatra (1.4.5) from /home/ian/.rvm/gems/ruby-2.1.0/specifications/sinatra-1.4.5.gemspec
+I, [2014-05-21T22:18:13.486479 #7366]  INFO -- : 0:  bundler (1.5.0) from /home/ian/.rvm/gems/ruby-2.1.0@global/specifications/bundler-1.5.0.gemspec
